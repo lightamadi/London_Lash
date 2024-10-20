@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter Sign-Up</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <img src="banner.png" alt="Banner Image" />
+    </div>
+
+    <div class="countdown">
+      <h2>Time left until Black Friday:</h2>
+      <div id="timer">
+        <div class="time-box">
+          <span id="days">00</span>
+          <p>Days</p>
+        </div>
+        <div class="time-box">
+          <span id="hours">00</span>
+          <p>Hours</p>
+        </div>
+        <div class="time-box">
+          <span id="minutes">00</span>
+          <p>Minutes</p>
+        </div>
+        <div class="time-box">
+          <span id="seconds">00</span>
+          <p>Seconds</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="signup-form">
+      <h1>
+        SIGN UP TO BE THE FIRST TO HEAR ABOUT NEW PRODUCTS, OFFERS AND UPDATES
+      </h1>
+      <form>
+        <label for="first-name">First name</label>
+        <input
+          type="text"
+          id="first-name"
+          name="first-name"
+          placeholder="Provide your name"
+          required
+        />
+
+        <label for="email">Contact email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email address"
+          required
+        />
+
+        <label for="phone">Phone Number</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Phone Number"
+          required
+        />
+
+        <label for="dob">Date of birth</label>
+        <input
+          type="text"
+          id="dob"
+          name="dob"
+          placeholder="DD/MM/YY"
+          required
+        />
+
+        <button type="submit">Submit</button>
+      </form>
+      <p>
+        By signing up, you agree to receive marketing updates. You can opt-out
+        at any time.
+      </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
